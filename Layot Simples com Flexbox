@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício CSS 5</title>
+    <style>
+        .container {
+            display: flex; /*Ativa o Flexbox*/
+            gap: 10px; /*espaçamento entre os itens*/
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+            text-align: center;
+            line-height: 100px; /*centraliza o texto verticalmente*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item" style="background-color:blue">4</div>
+    </div>
+    
+</body>
+</html>
