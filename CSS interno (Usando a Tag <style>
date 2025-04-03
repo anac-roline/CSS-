@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Exercício CSS 2</title>
+    <style>
+        /* Seletor de elemento: altera TODAS as tags <h2> */
+            h2 {
+                color:purple;
+                text-align:center; /*centraliza o texto*/
+            }
+            /*Seletor de classe (começa com ponto)*/
+            .destaque {
+                background-color:yellow;
+                padding: 10px; /*espaçamento interno*/
+            }
+
+            /*Seletor de elemento <a>*/
+            /*Nova regra para links*/
+                a {
+                    color:green;
+                }
+    </style>
+</head>
+<body>
+    <h2>Título Centralizado</h2>
+    <!--Tarefa: Aplique a classe "destaque" a este parágrafo-->
+    
+    <p class="destaque">Este parágrafo precisa ter fundo amarelo e espaçamento interno.</p>
+
+     <!--Link para testar a cor verde-->
+
+     <a href="https://www.youtube.com">Clique aqui</a>
+     <br>
+     <br>
+     <a href="https://www.google.com">Clique aqui para ir ao Google</a>
+    
+</body>
+</html>
