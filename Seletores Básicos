@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios CSS 3</title>
+    <style>
+        /*Seletor de elemento*/
+        p {
+            font-family: Arial, sans-serif;
+        }
+        /*Seletor de classe*/
+        .azul {
+            color:blue;
+        }
+        /*Seletor de ID (começa com #) */
+        #unico {
+
+            border:2px solid red;
+            padding: 15px;
+        }
+        .verde {
+            color: green;
+        }
+    </style>
+    </head>
+<body>
+    <p class="azul">Este texto deve ser azul.</p>
+    <p id="unico">Este parágrafo tem borda vermelha.</p>
+        <!-- Tarefa: Crie uma classe "verde" e aplique-a a este elemento-->
+
+        <p class="verde">Este parágrafo deve ser verde.</p>
+</body>
+</html>
