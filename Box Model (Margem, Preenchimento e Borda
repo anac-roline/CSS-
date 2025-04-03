@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios CSS 4</title>
+    <style>
+        .caixa {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 20px; /*espaçamento externo*/
+            padding: 30px; /*espeçamento interno*/
+            border: 3px dashed black; /*borda tracejada preta*/
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="caixa">Esta é uma caixa.</div>
+    <!--Tarefa: Crie uma segunda caixa com fundo laranja e margem de 40px-->
+    <div class="caixa" style="background-color: orange; margin: 20px;">Esta é uma segunda caixa.</div>
+    <div class="caixa" style="background-color: palevioletred; margin: 20px;">Esta é uma terceira caixa.</div>
+    <div class="caixa" style="background-color: violet; margin: 20px;">Esta é uma quarta caixa.</div>
+    <div class="caixa" style="background-color: rgb(122, 34, 34); margin: 20px;">Esta é uma quinta caixa.</div>
+</body>
+</html>
