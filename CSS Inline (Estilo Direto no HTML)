@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecercício CSS 1</title>
+</head>
+<body>
+    <!--Tarefa: Mude a cor do texto para vermelho e o tamanho da fonte para 24px-->
+    <h1 style="color: black; font-size: 20px;">Título Principal</h1>
+    <p style="background-color:lightgray">Este é o parágrafo com fundo cinza</p>
+
+</body>
+</html>
