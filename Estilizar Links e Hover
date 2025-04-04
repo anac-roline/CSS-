@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizar Links e Hover</title>
+    <style>
+        /* Estilo padrão dos links*/
+
+        a {
+            text-decoration: none; /*Remove sublinhado*/
+            color: gray;
+        }
+
+        /*Efeito ao passar o mouse (pseudo-clase: hover)*/
+        a:hover {
+            color: red;
+            font-weight: bold;
+        }
+        .btn {
+            background-color: green; /* Cor do fundo */
+            color: white ; /*Cor do resto*/
+            padding: 10px 20px; /*Espaçamento interno (vertical horizontal)*/
+            border-radius: 5px; /*Borda arredondada*/
+            display: inline-block; /*Permite definir padding e margens*/
+        }
+        .btn:hover {
+            background-color: darkgreen; /*Cor ao passar o mouse*/
+            cursor: : pointer; /*Mostra o cursor de mão*/
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com">Link comum</a>
+    <a href="https://www.google.com" class="btn"> Botão especial</a>
+    
+</body>
+</html>
