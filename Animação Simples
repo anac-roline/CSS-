@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação Simples</title>
+    <style>
+        .carregando {
+            width: 50px;
+            height: 50px;
+            border: 5px solid lightgray;
+            border-top-color: blue; /*Cor da borda supereior*/
+            border-radius: 50%; /*Tranforma em círculo*/
+
+            /*Aplica a animção*/
+            animation: girar 1s linear infinite;
+        }
+
+        /*Define a animação*/
+        @keyframes girar {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rootate(360deg);
+            }
+        }
+        .quadrado {
+            width: 50px; /*Largura*/
+            height: 50px; /*Altura*/
+            background-color: red; /*Cor inicial*/
+            animation: mida-cor 3s linear infinite; /*Aplica a animação*/
+            margin-top: 20px; /*Espaço acima do quadrado*/
+        }
+
+        @keyframes muda-cor {
+            0% {
+                background-color: red; /*Cor inicial*/
+            }
+            50% {
+                background-color: blue; /*Cor intermediária*/
+            }
+            100% {
+                background-color: green; /*Cor final*/
+            }
+        }
+    </style>
+</head>
+<body> 
+    <div class="carregando"></div>
+    <div class="quadrado"></div> <!--Quadrado que muda de cor-->
+    
+</body>
+</html>
