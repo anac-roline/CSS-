@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar Elementos com Flexbox</title>
+    
+    <style>
+        .container {
+            width: 300px;
+            height: 20px;
+            border: 2px solid black;
+            
+
+            /*Ativa o Flaxbox*/
+            display: flex;
+
+            /*Centraliza horizontalmente*/
+            justify-content: center;
+
+            /*Centraliza verticalmente*/
+            align-items: center;
+        }
+
+        .texto-vermelho {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Centralizar Elementos com Flexbox</h1>
+
+    <div class="container"><p>Texto centralizado</p>
+    <div class="texto-vermelho"><p>
+        
+        Este texto é vermelho! </p>
+    </div>
+
+    </div>
+    
+</body>
+</html>
