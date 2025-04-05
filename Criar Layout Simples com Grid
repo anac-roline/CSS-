@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Layout Simples com Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; /*Divide em 3 colunas*/
+            gap: 10px; /*Espaço entre as colunas*/
+        }
+        .item {
+            background-color: lightblue; /*Nova cor*/
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div> <!--Nova coluna-->
+    </div>
+    
+</body>
+</html>
